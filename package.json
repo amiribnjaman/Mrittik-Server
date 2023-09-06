@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "start-dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,8 @@
     "cors": "latest",
     "express": "latest",
     "nodemon": "latest"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4"
   }
 }
